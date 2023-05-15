@@ -27,34 +27,4 @@ header nav{
     text-decoration: none;
     outline:none;
     font-weight: bold;
-    border-radius: 3px;
-}
-.content{
-    height:100vh;
-    width: 100%;
-    display:flex;
-    flex-direction: row;
-}
-img{
-    height:100vh;
-    width: 50vw;
-    object-fit: cover;
-}
-.text{
-    padding-top: 100px;
-    text-align: center;
-    background-color: #6D7265;
-    color: white;
-}
-h2{
-    font-size: 60px;
-}
-p{
-    font-size: 30px;
-    padding-top: 70px;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-ul{
-    padding-top: 30px;
 }
