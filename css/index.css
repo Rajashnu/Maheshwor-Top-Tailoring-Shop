@@ -58,11 +58,7 @@ section a{
     font-weight: bold;
     border-radius: 30px;
 }
-section .btn1{
-    background-color:#7B726A;
-    color:white;
-}
-section .btn2{
+section .btn{
     background-color: white;
     color:black;
 }

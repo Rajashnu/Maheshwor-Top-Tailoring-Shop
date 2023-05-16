@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    height: 100vh;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-form{
+    background-color:#2A292A;
+    color: white;
+    height: 350px;
+    width: 450px;
+    text-align: center;
+}
+h1{
+    font-size: 55px;
+}
+label{
+    font-size: 35px;
+}
+::placeholder{
+    size: 30px;
+}
