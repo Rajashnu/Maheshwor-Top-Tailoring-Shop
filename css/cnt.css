@@ -59,3 +59,43 @@ h3{
 h5{
     font-size:30px;
 }
+@media(max-width:1162px){
+    .HAC a{
+        font-size:smaller;
+    }
+}
+@media(max-width:1162px){
+    header nav h1{
+        font-size:smaller;
+    }
+}
+@media(max-width:697px){
+    .HAC a{
+        font-size:10px;
+    }
+}
+@media(max-width:560px){
+    header nav h1{
+        font-size:10px;
+    }
+}
+@media(max-width:490px){
+    header nav h1{
+        font-size:8px;
+    }
+}
+@media(max-width:490px){
+    .HAC a{
+        font-size:7px;
+    }
+}
+@media(max-width:390px){
+    header nav h1{
+        font-size:6px;
+    }
+}
+@media(max-width:390px){
+    .HAC a{
+        font-size:5px;
+    }
+}

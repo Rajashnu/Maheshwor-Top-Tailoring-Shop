@@ -19,6 +19,7 @@ main{
     height:100vh;
     background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)), url('../Images/suit.jpg');
     background-size: cover;
+    background-attachment: fixed;
 }
 .HAC{
     width:45%;
@@ -34,6 +35,9 @@ main{
     outline:none;
     font-weight: bold;
     border-radius: 3px;
+}
+a:hover{
+    color:red;
 }
 main{
     display:flex;
@@ -61,4 +65,74 @@ section a{
 section .btn{
     background-color: white;
     color:black;
+}
+.footer{
+    background-color: #686868;
+}
+@media(max-width:1162px){
+    .HAC a{
+        font-size:smaller;
+    }
+}
+@media(max-width:1162px){
+    header nav h1{
+        font-size:smaller;
+    }
+}
+@media(max-width:989px){
+    main section h4{
+        font-size:25px ;
+    }
+}
+@media(max-width:989px){
+    main {
+        width: 100%;
+        height:100vh;
+        background-size: cover;
+    }
+}
+@media(max-width:697px){
+    .HAC a{
+        font-size:10px;
+    }
+}
+@media(max-width:620px){
+    main section h4{
+        font-size:15px ;
+    }
+}
+@media(max-width:560px){
+    header nav h1{
+        font-size:10px;
+    }
+}
+@media(max-width:490px){
+    header nav h1{
+        font-size:8px;
+    }
+}
+@media(max-width:490px){
+    .HAC a{
+        font-size:7px;
+    }
+}
+@media(max-width:490px){
+    main section h4{
+        font-size:10px ;
+    }
+}
+@media(max-width:390px){
+    header nav h1{
+        font-size:6px;
+    }
+}
+@media(max-width:390px){
+    .HAC a{
+        font-size:5px;
+    }
+}
+@media(max-width:390px){
+    main section h4{
+        font-size:8px ;
+    }
 }
